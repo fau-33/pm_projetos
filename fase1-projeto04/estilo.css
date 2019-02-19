@@ -1,5 +1,6 @@
 ul {
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -10,6 +11,22 @@ li {
     background-image: url('pendente.png');
     background-repeat: no-repeat;
     background-position: 40px center;
+   
+   
+}
+
+li:hover {
+    background-color: #6e6e6e;
+}
+
+li.feito {
+    background-color: #27ae60;
+    background-image: url('concluido.png');
+    
+}
+
+li.feito:hover {
+    background-color: #52be7f;
 }
 
 a {
@@ -22,5 +39,7 @@ a {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
 }
    
