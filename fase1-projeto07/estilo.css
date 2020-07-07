@@ -1,0 +1,12 @@
+section, header,footer{
+  background-color: #666;
+  height: 300px;
+  margin-bottom: 5px;
+}
+
+.container{
+  height: 300px;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #eee;
+}
