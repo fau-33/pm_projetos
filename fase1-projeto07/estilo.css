@@ -140,6 +140,49 @@ section#depoimento p{
   text-align: center;
 }
 
+section#convite{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(images/section-convite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#convite form{
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  width: 55%;
+  border-radius: 3px;
+  display: flex;
+}
+
+section#convite .container{
+  flex-direction: column;
+  align-items: center;
+}
+
+section#convite input{
+  padding: 30px;
+  width: 75%;
+  background-color: transparent;
+  border: none;
+}
+
+section#convite button{
+  background-image: url(images/botao-convite.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  width: 108px;
+  height: 43px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+section#convite span{
+  visibility: hidden;
+}
+
 
 
 
