@@ -1,0 +1,36 @@
+body{
+  display: flex;
+  background-color: #f5f5f5;
+}
+
+aside{
+  width: 200px;
+  background-color: #242536;
+}
+
+section#principal{
+  width: 100%;
+}
+
+section#principal header{
+  background-color: #242536;
+  height: 60px;
+}
+
+section#principal .modulo .abas{
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+section#principal .modulo .container{
+  height: 300px;
+  padding: 20px;
+}
+
+section#principal .modulo .container .canvas{
+  background-color: #fff;
+  height: 300px;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+}
