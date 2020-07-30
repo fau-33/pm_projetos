@@ -39,3 +39,71 @@
   color: #c6c6c6;
   font-size: 12px;
 }
+
+.cartao .newCard fieldset{
+  border: none;
+  text-align: center;
+}
+
+.cartao .newCard legend {
+  font-size: 16px;
+  color: #777879;
+  border-bottom: 1px solid #eaeaea;
+  width: 100%;
+  padding-bottom: 5px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+.cartao .newCard input{
+  width: 270px;
+  height: 40px;
+  margin-bottom: 5px;
+  padding-left: 20px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+.cartao .newCard input.data{
+  width: 149px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+}
+
+.cartao .newCard input.cvc{
+  width: 86px;
+  
+}
+
+.cartao ::-webkit-input-placeholder{
+  color: #c4cbd0;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.cartao .newCard button{
+  width: 289px;
+  padding: 20px;
+  background-color: #84d654;
+  font-size: 16px;
+  font-family: 'muliextrabold';
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.cartao .newCard label input{
+  width: 20px;
+  height: 20px;
+  margin-bottom: 35px;
+}
+
+.cartao .newCard label{
+  display: flex;
+  flex-direction: row;
+  margin-left: 35px;
+  color: #777879;
+  font-size: 14px;
+}
